@@ -1,8 +1,8 @@
 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
     <div class="container">
         <!-- Brand -->
-        <a class="navbar-brand" href="{{url('/')}}"><img src="{{ asset('images/logo.png') }}" alt="" class="w-50" /></a>
-
+        <a class="navbar-brand" href="{{url('/')}}">Creative <span class="text-warning"><b>.</b></span></a>
+        <!-- <img src="{{ asset('images/logo.png') }}" alt="" class="w-50" /> -->
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>

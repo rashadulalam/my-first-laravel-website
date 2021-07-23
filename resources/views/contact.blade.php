@@ -14,7 +14,8 @@
     
     <div class="container my-5">
         <div class="row">
-            <div class="col-md-6 mx-auto shadow p-5 bg-white rounded">
+            
+            <div class="col-md-6 shadow mx-auto p-5 bg-white rounded">
                 <h5 class="text-center">Book now!</h5>
                 <p class="text-center text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, praesentium.</p>
                 
