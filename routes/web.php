@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\siteController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,3 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 
 
+Route::get('/', [siteController::class, 'showHome']);
+Route::get('/about', [siteController::class, 'showAbout']);
+Route::get('/services', [siteController::class, 'showServices']);
+Route::get('/portfolio', [siteController::class, 'showPortfolio']);
