@@ -19,3 +19,8 @@ Route::get('/', [siteController::class, 'showHome']);
 Route::get('/about', [siteController::class, 'showAbout']);
 Route::get('/services', [siteController::class, 'showServices']);
 Route::get('/portfolio', [siteController::class, 'showPortfolio']);
+
+Route::get('/contact', function() {
+    return view('contact');
+});
+
