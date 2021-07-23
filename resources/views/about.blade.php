@@ -10,7 +10,7 @@
         </div>
     </div>
 </section>
-<section class="my-3 py-3">
+<section class="my-3 py-3 mb-5">
     <div class="container">
         <div class="row">
             <div class="col-md-8">
